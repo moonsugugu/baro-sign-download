@@ -6,9 +6,11 @@
 
 **[Windows 10·11 64비트 설치 파일 다운로드](https://github.com/moonsugugu/baro-sign-download/releases/latest/download/BaroSign_Setup.exe)**
 
+**[ZIP 다운로드](https://github.com/moonsugugu/baro-sign-download/releases/latest/download/BaroSign_Setup.zip)** — 압축을 푼 다음 안의 설치 파일을 실행하세요. 같은 EXE를 담았으며 암호가 없습니다.
+
 [버전별 릴리스와 SHA-256](https://github.com/moonsugugu/baro-sign-download/releases/latest)
 
-첫 버전은 **1.0.0**입니다. 글꼴 136종과 문서 엔진을 포함해 설치 파일은 약 434MB입니다. 인터넷을 끊고 사용할 수 있습니다.
+최신 버전은 **1.1.0**입니다. 글꼴 136종과 문서 엔진을 포함해 설치 파일은 약 434MB입니다. 인터넷을 끊고 사용할 수 있습니다.
 
 ## 문서가 외부로 전송되나요?
 
@@ -31,9 +33,15 @@
 
 설치 파일을 실행하면 현재 사용자에게 설치합니다. 시작 메뉴·바탕 화면에서 실행하며 Windows 설정의 설치된 앱 또는 제어판에서 삭제할 수 있습니다. 설치 파일을 다시 실행하면 업데이트·다시 설치 또는 삭제를 선택합니다. 이전 버전으로의 덮어쓰기는 차단합니다. 앱 삭제 후에도 보관함과 따로 저장한 문서는 유지합니다.
 
-**앱 정보 · 업데이트 → GitHub에 새 버전 확인**을 눌렀을 때만 공개 릴리스에 연결합니다. 문서·서명·파일명을 전송하지 않으며 설치 파일의 크기·SHA-256·출처를 검증합니다. 인터넷 연결 없이도 기존 서명 기능을 사용할 수 있습니다.
+**설정 · 앱 정보 → GitHub에 새 버전 확인**에서 공개 릴리스를 확인합니다. 자동 확인은 기본 꺼짐이며, 직접 켜면 앱 시작 또는 설정을 켠 뒤 약 10초 후부터 약 24시간마다 버전을 확인합니다. 다운로드·설치는 별도로 선택합니다. 문서·서명·파일명을 전송하지 않으며 설치 파일의 크기·SHA-256·출처를 검증합니다. 인터넷 연결 없이도 기존 서명 기능을 사용할 수 있습니다.
+
+트레이에서 **열기 / 설정 / 업데이트 확인 / 종료**를 사용할 수 있습니다. 창의 ×도 앱 전체를 종료합니다. 설정의 **앱 제거**는 Windows 설치된 앱을 엽니다.
+
+설정 화면의 접힌 **학교용 SW 보안 및 개인정보보호 준수 안내**에서 5영역 요약과 8개 조문을 확인할 수 있습니다. 같은 글을 [개인정보 처리방침](PRIVACY.md)에서도 읽을 수 있습니다. 전체 보관함과 설정을 지우려면 필요한 JSON 백업을 만든 뒤 앱을 완전히 종료하고 `%APPDATA%\Moonsunezip\BaroSign` 폴더를 직접 삭제합니다. 내보낸 파일은 별도로 삭제하세요.
 
 현재 설치 파일은 Authenticode 코드 서명이 없어 Windows가 게시자를 확인하지 못할 수 있습니다. 공식 저장소와 SHA-256을 확인하세요.
+
+1.1.0 설치 EXE와 내부 EXE는 Windows Defender 개별 검사에서 위협이 발견되지 않았습니다. **알약·VirusTotal 판정과 전체 탐지 수는 미확인**입니다. ZIP은 EXE와 같은 파일을 담았으며 백신 탐지를 없애는 기능이 아닙니다.
 
 ## 화면
 
@@ -41,4 +49,6 @@
 
 ![페이지별 인주 설정](images/offline-app.png)
 
-made by [문수네집](https://moonsunezip.com) · [Instagram](https://www.instagram.com/moonsune.zip/) · [moonsune.zip](https://moonsunezip.com)
+![설정과 개인정보 처리방침](images/settings.png)
+
+made by 문수네집 moonsune.zip · [선생님소개](https://moonsunezipbrand.vercel.app/) · [컨텐츠사이트](https://moonsunezip.com) · [Instagram](https://www.instagram.com/moonsune.zip/) · [커뮤니티](https://open.kakao.com/o/pONPzXui) · [1:1 문의 (버그 & 프로그램 개선 아이디어)](https://open.kakao.com/o/s9CERxJi)
