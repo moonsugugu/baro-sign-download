@@ -6,8 +6,6 @@
 
 **[Windows 10·11 64비트 설치 파일 다운로드](https://github.com/moonsugugu/baro-sign-download/releases/latest/download/BaroSign_Setup.exe)**
 
-**[ZIP 다운로드](https://github.com/moonsugugu/baro-sign-download/releases/latest/download/BaroSign_Setup.zip)** — 압축을 푼 다음 안의 설치 파일을 실행하세요. 같은 EXE를 담았으며 암호가 없습니다.
-
 [버전별 릴리스와 SHA-256](https://github.com/moonsugugu/baro-sign-download/releases/latest)
 
 최신 버전은 **1.1.0**입니다. 글꼴 136종과 문서 엔진을 포함해 설치 파일은 약 434MB입니다. 인터넷을 끊고 사용할 수 있습니다.
@@ -41,11 +39,9 @@
 
 현재 설치 파일은 Authenticode 코드 서명이 없어 Windows가 게시자를 확인하지 못할 수 있습니다. 공식 저장소와 SHA-256을 확인하세요.
 
-1.1.0 설치 EXE와 내부 EXE는 Windows Defender 개별 검사에서 위협이 발견되지 않았습니다. **알약·VirusTotal 판정과 전체 탐지 수는 미확인**입니다. ZIP은 EXE와 같은 파일을 담았으며 백신 탐지를 없애는 기능이 아닙니다.
+1.1.0 설치 EXE와 내부 EXE는 Windows Defender 개별 검사에서 위협이 발견되지 않았습니다. **알약·VirusTotal 판정과 전체 탐지 수는 미확인**입니다.
 
 ## 화면
-
-![문서에 서명 넣기](images/main-app.png)
 
 ![페이지별 인주 설정](images/offline-app.png)
 
